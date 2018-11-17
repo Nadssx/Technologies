@@ -1,0 +1,7 @@
+Fruits
+(p>img)*5
+ <p><img src="" alt=""></p>
+    <p><img src="" alt=""></p> // pri alt taga vutre , ako napishem neshto potrebitelq lesno shte se doseti kakvo e imalo 
+    <p><img src="" alt=""></p> // v sluchai ako img imeto e oburkano ili razlichno, premahnato, kogato ne moje da se dostupi snimkata
+    <p><img src="" alt=""></p>
+    <p><img src="" alt=""></p>

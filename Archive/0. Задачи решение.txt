@@ -1,0 +1,6 @@
+JUDGE
+https://judge.softuni.bg/Contests#!/List/ByCategory/80/HTML-and-CSS-Exercises
+
+https://github.com/hammer4/SoftUni/tree/master/Web%20Fundamentals%20-%20HTML5
+
+https://github.com/hammer4/SoftUni/tree/master/Software%20Technologies/1.%20HTML5%20and%20CSS%20Lab
