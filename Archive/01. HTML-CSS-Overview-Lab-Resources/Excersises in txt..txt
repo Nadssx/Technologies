@@ -1,0 +1,159 @@
+1
+=================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+<p>
+    I am learning <strong>HTML</strong> and <strong>CSS</strong>!
+</p>
+</body>
+</html>
+
+2
+===================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fruits</title>
+</head>
+<body>
+<h1>Fruits</h1>
+<p>
+    <img src="images/banana.png">
+    <img src="images/orange.png">
+    <img src="images/kiwi.png">
+    <img src="images/kiwi.png">
+    <img src="images/apple.png">
+</p>
+<p>
+    <img src="images/apple.png">
+    <img src="images/apple.png">
+    <img src="images/banana.png">
+    <img src="images/kiwi.png">
+    <img src="images/orange.png">
+</p>
+<p>
+    <img src="images/orange.png">
+    <img src="images/banana.png">
+    <img src="images/orange.png">
+    <img src="images/orange.png">
+    <img src="images/apple.png">
+</p>
+</body>
+</html>
+
+3
+===================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Brown Bear</title>
+</head>
+<body>
+<h1>The Brown Bear</h1>
+<p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+<a href="https://en.wikipedia.org/wiki/Brown_bear">Learn More</a>
+<p>Here are some bear species:</p>
+<ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+</ul>
+<p>The following countries have the largest populations of brown bears:</p>
+<ol>
+    <li>Russia</li>
+    <li>United States</li>
+    <li>Canada</li>
+</ol>
+4
+===================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To do list</title>
+    <link rel="stylesheet" href="to-do-list.css" />
+</head>
+<body>
+<div class="my-list">
+    <h1>Today's to do list</h1>
+    <p>Monday, September 19th</p>
+    <ol>
+        <li>Write a blog post</li>
+        <li>Go to the bank</li>
+        <li>Study for exams</li>
+        <li>Renew web hosting account and domain name</li>
+        <li>Learn something new</li>
+        <li>Update project log</li>
+    </ol>
+</div>
+</body>
+</html>
+-------------
+css
+.my-list {
+    margin: 0 auto;
+    padding: 8px 24px;
+    width: 500px;
+    font-size: 30px;
+    border: 1px solid #f7f381;
+    background: rgb(247, 243, 129);
+    box-shadow: 0 0 10px 2px #333333;
+}
+
+.my-list ol {
+    margin: 12px;
+}
+
+.my-list p {
+    text-align: center;
+}
+5
+===================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Lists</title>
+</head>
+<body>
+<ol type="I">
+    <li>List item 1
+        <ol type="a">
+            <li>Nested item 1.1</li>
+            <li>Nested item 1.2</li>
+        </ol>
+    </li>
+    <li>
+        List item 2
+        <ol type="1">
+            <li>Nested item 2.1</li>
+            <li>
+                Nested item 2.2
+                <ul type="circle">
+                   <li>Nested item 2.2.1</li>
+                   <li>Nested item 2.2.2</li>
+                   <li>Nested item 2.2.3</li>
+                </ul>
+            </li>
+            <li>Nested item 2.3</li>
+        </ol>
+    </li>
+    <li>
+        List item 3
+        <ul type="disc">
+            <li>Nested item 3.1</li>
+            <li>Nested item 3.2</li>
+            <li>Nested item 3.3</li>
+        </ul>
+    </li>
+</ol>
+</body>
+</html>
